@@ -75,7 +75,7 @@ class_names = [
 model = CNNModel(num_classes=16)
 
 model.load_state_dict(
-    torch.load(r"C:\code\VI_2_DL_Project\training\final_tuned_model.pth", map_location="cpu")
+    torch.load(r"C:\code\fruit_freshness_indicator_DLproject\final_tuned_model.pth", map_location="cpu")
 )
 
 model.eval()
